@@ -1,0 +1,96 @@
+.nmbr-btn{
+  padding-inline: 20px;
+}
+
+/*=======================================================================
+[31] Service Style
+=========================================================================*/
+@media only screen and (max-width: 1199px) {
+    .service-wrap-layout1 {
+      padding: 10rem 0;
+    }
+  }
+  .service-wrap-layout1 .service-inner-layout1 {
+    position: relative;
+    top: -125px;
+    z-index: 20;
+  }
+  @media only screen and (max-width: 1199px) {
+    .service-wrap-layout1 .service-inner-layout1 {
+      position: inherit;
+    }
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:first-child .service-box-layout1 {
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    -ms-border-radius: 4px 0 0 4px;
+    -o-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:last-child .service-box-layout1 {
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -ms-border-radius: 0 4px 4px 0;
+    -o-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:nth-child(odd) .service-box-layout1 {
+    background-color: #396cf0;
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:nth-child(odd) .service-box-layout1:hover {
+    background-color: #1143c0;
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:nth-child(even) .service-box-layout1 {
+    background-color: #3c70fa;
+  }
+  .service-wrap-layout1 .service-inner-layout1 .single-item:nth-child(even) .service-box-layout1:hover {
+    background-color: #1143c0;
+  }
+  .service-box-layout1 {
+    text-align: center;
+    padding: 50px 40px 35px;
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  @media only screen and (max-width: 1199px) {
+    .service-box-layout1 {
+      padding: 30px 30px 40px;
+    }
+  }
+  .service-box-layout1 .item-icon {
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .service-box-layout1 .item-icon i {
+    display: inline-block;
+  }
+  .service-box-layout1 .item-icon i:before {
+    font-size: 50px;
+    margin-left: 0;
+  }
+  .service-box-layout1 .item-title {
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .service-box-layout1 .item-title a {
+    color: #ffffff;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .service-box-layout1 .item-title a:hover {
+    color: #e3e3e3;
+  }
+  .service-box-layout1 p {
+    font-size: 17px;
+    color: #ffffff;
+  }
+  .service-box-layout1:hover .item-icon i {
+    animation: toTopFromBottom 0.5s forwards;
+  }

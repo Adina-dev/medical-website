@@ -1,0 +1,234 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+.body{
+    font-family: sans-serif;
+   
+}  
+.card{
+    border: none; 
+     width: 80%;
+     margin-top: 10vh;
+     margin-bottom: 10vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-title{
+    font-size: 45px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+ul{
+    padding: 0%;
+}
+.links li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.links a:hover{
+    color: blue;
+    transition: .30s;
+}
+.arrow{
+    color: blue;
+    font-size: 25px;
+}
+.form-section{
+    background-color:#F1F7FA ;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 15vh;
+
+}
+.main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:10vh;
+}
+.form{
+    width: 50%;
+    background-color: white;
+    padding:90px 60px 90px 60px;
+}
+.form-title{
+    text-align: center;
+    margin-bottom: 5vh
+}
+.input-group {
+    height: 8vh;
+    border-radius: 0px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+
+}
+.patient{
+    height: 8vh;
+    width: 100%;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+    padding:0px 15px 0 15px;
+    font-size: 19px;
+    color:gray;
+    text-decoration-style: none;
+    outline: none;
+  
+}
+.input-group .form-select{
+    font-size: 19px;
+    color:gray;
+}
+.small-input{
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.small-input input{
+    width: 46.5%;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 18px;
+    border: 1px solid #CED4DA;
+    border-radius: 3px;
+    padding: 0 15px 0 15px;
+    font-size: 19px;
+    outline: none;
+   
+    height: 8vh;
+
+}
+.form-section .main{
+    display: flex;
+}
+.form{
+    display: inline-block;
+}
+.pic{
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    margin-left:44%;
+    
+    
+}
+.pic img{
+    height: 137vh;
+    position: relative;
+    margin-left: 115%;
+    
+ 
+}
+.input-group1{
+    margin-top: 20px
+}
+.input-group1 .form-control{
+    height: 20vh;
+    font-size: 19px;
+    outline: none;
+}
+.btn1 { 
+    text-align: center;
+    margin-top: 30px;
+}
+.btn1 button{
+    padding: 15px 30px 15px 30px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: #3b5fe0;
+    border: none;
+    color: white;
+    box-shadow:3px 3px 10px gray;
+    
+    
+}
+.btn1 button:hover{
+    background-color: #3054d8;
+    transition: .5s;
+}
+.btn1 button:active{
+    box-shadow: none;
+}
+
+@media only screen and (min-width: 1023px ) {
+
+.small-input input{
+    padding: 0px 15px 0px 15px;
+    width: 45%;
+    margin-left:10px;
+    margin-right: 8px;
+}
+
+}
+@media only screen and (min-width: 992px) {
+    .form-section{
+        width: 100%;
+        /* padding:50px 0px 50px 00px; */
+
+        
+    }
+    .form{
+        width: 60%;
+    }
+    .small-input input{
+        width: 45%;
+        margin-left:12px;
+        margin-right: 10px;
+    }
+    .pic{
+        margin-left: 44%;
+    }
+
+}
+@media only screen and (max-width:1114px){
+    .pic{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding:90px 10px 90px 10px;
+
+    }
+  
+   
+
+}
+@media only screen and (max-width:600px){
+    .pic{
+        display: none;
+    }
+    .form{
+        width: 100%;
+        padding:90px 10px 90px 10px;
+
+
+    }
+    .main{
+        width: 95%;
+        margin-inline: auto;
+    }
+
+    .small-input input{
+        width: 100%;
+        margin: 0%;
+        margin-top: 15px;
+       
+    }
+}
+
+
+
+
+

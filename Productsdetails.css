@@ -1,0 +1,208 @@
+
+
+
+
+/*desktop*/
+/*desktop*/
+
+
+.product-page{
+  padding:64px;
+  max-width:1024px;
+  margin: 0 auto;
+}
+.product-section{
+  display:flex;
+  margin-bottom:128px;
+}
+
+.content-block{
+  display:block;
+}
+
+.product-img-div{
+  margin-right:32px;
+}
+
+.product-img{
+  width:408px;
+}
+
+/* div{
+  border-style:solid;
+  border-color:red;
+
+} */
+
+#rightDiv{
+  margin-right:96px;
+}
+
+#pricingDiv{
+  margin-bottom:32px;
+}
+
+.heading{
+  font-family: "chivo", sans-serif;
+  font-size:36px;
+  font-weight: 300;
+  margin-bottom:16px;
+}
+
+.subheading{
+  font-family: "chivo", sans-serif;
+  font-size:24px;
+}
+
+.subtitle{
+  font-family: "chivo", sans-serif;
+  font-weight: 700;
+  font-size:16px;
+  margin-bottom:8px;
+}
+
+.body{
+  font-family: "chivo", sans-serif;
+  font-size:16px;
+  font-weight: 300;
+  margin-bottom:8px;
+  text-align: justify;
+
+}
+
+.body-text-2{
+  font-family: "chivo", sans-serif;
+  font-size:16px;
+  font-weight: 400;
+  margin-bottom:8px;
+  text-align: justify;
+}
+
+.button{
+  font-family: "chivo", sans-serif;
+  font-weight: 700;
+  font-size:16px;
+  border-style:none;
+}
+
+.price{
+  
+  font-family: "chivo", sans-serif;
+  font-weight: 700;
+  font-size:24px;
+}
+
+.oldPrice{
+  text-decoration: line-through;
+  margin-right:16px;
+}
+
+.salePrice{
+  color:green;
+}
+
+
+.priceMini{
+  font-family: "chivo", sans-serif;
+  font-weight: 700;
+  font-size:16px;
+}
+
+
+
+#productButton{
+  padding-left:16px;
+  padding-right:16px;
+  margin-bottom:64px;
+  height:50px;
+}
+
+#productDescription{
+  margin-bottom:32px;
+  
+}
+
+.product-deatils-block{
+  margin-bottom:32px;
+}
+
+#moreCollectionTitle{
+  text-align:center;
+  margin-bottom:64px;
+}
+
+/* more card collection */
+.more-card-collection{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-card-img-mini{
+  max-width:100%;
+  margin-bottom:32px;
+}
+
+
+
+
+/*tablet*/
+@media screen and (max-width: 950px) {
+  
+  .product-page{
+  padding:32px;
+  max-width:1024px;
+  margin: 0 auto;
+}
+  
+  #rightDiv{
+  margin-right:0px;
+}
+  
+  .product-img{
+  max-width:100%;
+}
+  .product-section {
+    display: block;
+    margin-bottom:128px;
+}
+  
+  .product-img-div {
+    margin-bottom: 64px;
+}
+  
+}
+/*tablet*/
+
+
+/*mobile*/
+@media screen and (max-width: 786px) {
+  
+  #rightDiv{
+  margin-right:0px;
+}
+  
+  .product-section {
+    display: block;
+    margin-bottom:128px;
+}
+  .product-img-div {
+  margin-right: 0px;
+}
+  .product-img{
+  max-width:100%;
+}
+  .more-card-collection{
+  display:block;
+}
+
+  .product-card-mini{
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 256px;
+    margin-bottom:64px;
+  }
+  
+}
+/*mobile*/

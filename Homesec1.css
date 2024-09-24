@@ -1,0 +1,29 @@
+.sec1-bg{
+    background-image: url(/back.png);
+    background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 25vh;
+
+}
+.search-inpt{
+    background-color: rgba(240, 255, 255, 0);
+    outline: none;
+
+}
+.search-inpt::placeholder{
+font-size: 17px;
+color: rgba(28, 28, 202, 0.548);
+}
+.data-list{
+    background-color: rgba(220, 230, 245, 0.774);
+}
+.dropdown-menu{
+height: 28vh;
+overflow-y: scroll;
+
+}
+.city{
+border-right: 2px solid rgb(156, 195, 247) !important;
+border: none;
+
+}

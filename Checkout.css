@@ -1,0 +1,154 @@
+
+
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  text-align: center;
+  width: 1000px;
+}
+th,
+td {
+  border-bottom: 1px solid #e9e4de;
+  height: 160px;
+}
+th {
+  height: 50px;
+  line-height: 50px;
+  font-weight: normal;
+}
+td {
+  padding: 10px 10px;
+  color: #444;
+  font-weight: bolder;
+}
+tbody tr:hover {
+  background: #cfecec;
+}
+
+.content {
+  width: 1000px;
+  margin: 40px auto;
+}
+
+.delete {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: 150px;
+  background-color: #bb9ca6;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
+}
+.delete:hover {
+  background-color: #c81622;
+  color: #fff;
+}
+.deleteOne {
+  display: block;
+  height: 33px;
+  line-height: 33px;
+  width: 130px;
+  color: #b5b5b5;
+  border: solid 2px #b5b5b5;
+  border-radius: 8px;
+  background-color: #f2f9f9;
+  cursor: pointer;
+}
+.deleteOne:hover {
+  color: #c81622;
+  border: solid 2px #c81622;
+}
+
+.on {
+  background-color: #eee;
+}
+.goodsTitle {
+  color: #1669c8;
+}
+
+.check {
+  cursor: pointer;
+}
+.checkbox {
+  width: 60px;
+}
+.goods {
+  width: 300px;
+  overflow: hidden;
+}
+.goods span {
+  width: 140px;
+  margin-top: 16px;
+  text-align: left;
+  float: left;
+}
+.price {
+  width: 130px;
+}
+.count {
+  width: 101px;
+}
+.value {
+  height: 33px;
+  width: 60px;
+}
+.count .add,
+.count input,
+.count .reduce {
+  float: left;
+  margin-right: -1px;
+  position: relative;
+
+}
+.count .add,
+.count .reduce {
+  height: 33px;
+  width: 21px;
+  border: 1px solid #c4c1c1;
+  background: #c4c1c1;
+  text-align: center;
+  line-height: 23px;
+  color: #444;
+  font-size: 21px;
+}
+.count .add:hover,
+.count .reduce:hover {
+  color: #1672c8;
+  z-index: 3;
+  border-color: #1672c8;
+  cursor: pointer;
+}
+.count input {
+  width: 50px;
+  height: 15px;
+  line-height: 15px;
+  border: 1px solid #aaa;
+  color: #343434;
+  text-align: center;
+  padding: 4px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.subtotal {
+  width: 150px;
+  color: rgb(0, 119, 255);
+  font-weight: bold;
+}
+.goods img {
+  width: 130px;
+  margin-right: 5px;
+  float: left;
+}
+.last {
+  float: right;
+}

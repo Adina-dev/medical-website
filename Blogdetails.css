@@ -1,0 +1,84 @@
+/*=======================================================================
+[25] Banner Area Style
+=========================================================================*/
+.inner-page-banner {
+    display: block;
+    padding: 9.2rem 0;
+  }
+  .inner-page-banner .breadcrumbs-area {
+    position: relative;
+    z-index: 1;
+  }
+  .inner-page-banner .breadcrumbs-area h1 {
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #111111;
+    font-size: 3.6rem;
+  }
+  @media only screen and (max-width: 767px) {
+    .inner-page-banner .breadcrumbs-area h1 {
+      margin-bottom: 0;
+    }
+  }
+  .inner-page-banner .breadcrumbs-area ul li {
+    display: inline-block;
+    color: #111111;
+    font-size: 18px;
+    position: relative;
+    margin-right: 8px;
+    padding-right: 20px;
+  }
+  .inner-page-banner .breadcrumbs-area ul li:before {
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 5;
+    color: white;
+  }
+  .inner-page-banner .breadcrumbs-area ul li a {
+    color: #111111;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+  }
+  .inner-page-banner .breadcrumbs-area ul li a:hover {
+    color: #396cf0;
+  }
+  .inner-page-banner .breadcrumbs-area ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .inner-page-banner .breadcrumbs-area ul li:last-child:before {
+    display: none;
+  }
+  .inner-page-banner .breadcrumbs-area.area-right {
+    margin-top: 20px;
+    text-align: right;
+  }
+  .banner-wrap-layout1 {
+    padding: 16rem 0;
+  }
+  .banner-box-layout1 {
+    background-color: rgba(57, 108, 240, 0.8);
+    padding: 40px 50px 20px;
+  }
+  .banner-box-layout1 .item-title {
+    color: #ffffff;
+  }
+  .banner-box-layout1 .phone-number {
+    color: #ffffff;
+  }
+  .banner-box-layout1 p {
+    color: #ffffff;
+  }
